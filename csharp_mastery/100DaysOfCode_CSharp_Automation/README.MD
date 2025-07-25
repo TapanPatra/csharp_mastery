@@ -2,7 +2,7 @@
 
 ## Day 1
 Goal: Set up your C# development environment and write your first automation-oriented program.  
-- [x] [Setup project repository]
+- [x] Setup project repository
 - [x] Install Visual Studio or Visual Studio Code (if not already installed).
 - [x] Create a new Console App project.
 - [x] Write a Calculator class with basic methods: Add, Subtract.

@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
+    <PackageReference Include="NUnit.Analyzers" Version="3.3.0" />
+    <PackageReference Include="coverlet.collector" Version="3.1.2" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.11.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Fundamentals\HelloWorld\" />
+    <Folder Include="Fundamentals\ClassesAndInheritance\" />
+    <Folder Include="Fundamentals\ClassesTheBasics\" />
+    <Folder Include="Fundamentals\Delegates\" />
+    <Folder Include="Fundamentals\Dynamic\" />
+    <Folder Include="Fundamentals\Events\" />
+    <Folder Include="Fundamentals\Generics\" />
+    <Folder Include="Fundamentals\Interfaces\" />
+    <Folder Include="Fundamentals\Lambda\" />
+    <Folder Include="Fundamentals\Async\" />
+    <Folder Include="Fundamentals\CollectionsAndArrays\" />
+    <Folder Include="Fundamentals\ControlFlowAndExpression\" />
+    <Folder Include="Fundamentals\Conversions\" />
+    <Folder Include="Fundamentals\CovarianceAndContravariance\" />
+    <Folder Include="Fundamentals\EnumeratorsAndIterators\" />
+    <Folder Include="Fundamentals\Exceptions\" />
+    <Folder Include="Fundamentals\Extensibility\" />
+    <Folder Include="Fundamentals\LINQ\" />
+    <Folder Include="Fundamentals\Methods\" />
+    <Folder Include="Fundamentals\Testability\" />
+    <Folder Include="Fundamentals\ReflectionAndAttributes\" />
+    <Folder Include="Fundamentals\PreprocessorDirectives\" />
+    <Folder Include="Fundamentals\ValueTypesandReferenceTypes\" />
+    <Folder Include="Fundamentals\SystemObject\" />
+    <Folder Include="Fundamentals\Structs\" />
+    <Folder Include="ModernCSharp\" />
+    <Folder Include="CSharp6\" />
+    <Folder Include="CSharp7\" />
+  </ItemGroup>
+
+</Project>

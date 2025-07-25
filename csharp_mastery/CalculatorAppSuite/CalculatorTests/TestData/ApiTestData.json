@@ -1,0 +1,14 @@
+[
+  {
+    "CaseId": "TC01",
+    "Method": "Add",
+    "Input": [ 10, 20],
+    "Expected": 30.0
+  },
+  {
+    "CaseId": "TC02",
+    "Method": "Subtract",
+    "Input": [ 8, 2 ],
+    "Expected": 6.0
+  }
+]

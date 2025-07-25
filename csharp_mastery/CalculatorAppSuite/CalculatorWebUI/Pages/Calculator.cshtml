@@ -1,0 +1,42 @@
+﻿@page
+@model CalculatorWebUI.Pages.CalculatorModel
+@{
+    ViewData["Title"] = "Calculator";
+}
+
+<h2>Simple Calculator</h2>
+
+<form method="post">
+    <div>
+        <label>Number A:</label>
+        <input asp-for="A" type="number" step="any" required />
+    </div>
+
+    <div>
+        <label>Number B:</label>
+        <input asp-for="B" type="number" step="any" required />
+    </div>
+
+    <div>
+        <label>Operation:</label>
+        <select asp-for="Operation">
+            <option value="Add">Add</option>
+            <option value="Subtract">Subtract</option>
+            <option value="Multiply">Multiply</option>
+            <option value="Divide">Divide</option>
+        </select>
+    </div>
+
+    <div>
+        <button type="submit">Calculate</button>
+    </div>
+</form>
+
+@if (Model.Result.HasValue)
+{
+    <p><strong>Result:</strong> @Model.Result</p>
+}
+@if (!string.IsNullOrEmpty(Model.ErrorMessage))
+{
+    <p style="color:red">@Model.ErrorMessage</p>
+}

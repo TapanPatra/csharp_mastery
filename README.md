@@ -18,6 +18,7 @@ This repository contains hands-on projects, practice problems, and automation fr
 
 | Folder                      | Description                                                      |
 |-----------------------------|------------------------------------------------------------------|
+|`100DaysOfCode_CSharp_Automation` | Master C# Automation by coding 1 hour daily for 100 days  |
 | `DataStructuresAlgorithms/` | C# implementations of sorting, trees, graphs, linked lists, etc. |
 | `EFCoreLearning/`           | EF Core CRUD, migrations, seeding, query building                |
 | `BCL/`                      | File handling, collections, LINQ, threading from .NET BCL        |

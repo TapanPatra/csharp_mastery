@@ -3,7 +3,7 @@
 🧪 **Goal:** Master C# Automation by coding 1 hour daily for 100 days  
 📅 **Start Date:** July, 2025  
 📈 **Duration:** 100 Days  
-🏁 **Current Progress:** Day 7 ✅
+🏁 **Current Progress:** Day 9 ✅
 
 ---
 
@@ -11,12 +11,12 @@
 
 After moving into a Test Manager role, I realized the importance of staying technically sharp and interview-ready. This repository is my **daily hands-on journey** to refine my C# skills across:
 
-- 🏁 Web Automation (Selenium, Playwright)
+- ✅ Web Automation (Selenium, Playwright)
 - 🏁 Mobile Automation (Appium)
-- 🏁API Testing (RestSharp)
+- ✅ API Testing (RestSharp)
 - ✅ Unit Testing (NUnit, Moq)
 - 🏁 XML / JSON Validation
-- 🏁 HTML Reporting
+- ✅ HTML Reporting
 - 🏁 Data Validation
 - 🏁 Email Sending
 - 🏁 Web Scraping
@@ -28,6 +28,7 @@ After moving into a Test Manager role, I realized the importance of staying tech
 
 | Day | Topic | Status |
 |-----|--------------------------|--------|
+| 00  | C# Programming Fundamentals   | ✅ Done |
 | 01  | Basic Calculator Class & NUnit Tests Setup   | ✅ Done |
 | 02  | Add Exception to Calculator Class & NUnit Tests to verify Exception    | ✅ Done |
 | 03  | Use Microsoft.Extensions.Logging.ILogger        | ✅ Done |
@@ -35,7 +36,7 @@ After moving into a Test Manager role, I realized the importance of staying tech
 | 05  | Moq in c#  | ✅ Done  |
 | 06  | Selenium Web Automation with C# | ✅ Done | 
 | 07  | REST API Testing with RestSharp | ✅ Done | 
-| 08  | Load Testing    | 🏁 Planned | 
+| 08  | Load Testing    | ✅ Done |  
 | 09  | FlaUI       | 🏁 Planned | 
 | 10  | Playwright  | 🏁 Planned | 
 | 11  | Visual Testing       | 🏁 Planned | 
@@ -59,7 +60,7 @@ After moving into a Test Manager role, I realized the importance of staying tech
 | 29  | Html Reports using Allure       | 🏁 Planned | 
 | 30  | Design Patterns - SOLID      | 🏁 Planned | 
 | ... | ...                      | ...    |
-| 365 | Final Project Showcase   | 🏁 Planned |
+| 100 | Final Project Showcase   | 🏁 Planned |
 
 ---
 

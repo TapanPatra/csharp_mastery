@@ -16,13 +16,20 @@ This repository contains hands-on projects, practice problems, and automation fr
 
 ## 📂 Folder Structure
 
-| Folder                      | Description                                                      |
-|-----------------------------|------------------------------------------------------------------|
-|`100DaysOfCode_CSharp_Automation` | Master C# Automation by coding 1 hour daily for 100 days  |
-| `DataStructuresAlgorithms/` | C# implementations of sorting, trees, graphs, linked lists, etc. |
-| `EFCoreLearning/`           | EF Core CRUD, migrations, seeding, query building                |
-| `BCL/`                      | File handling, collections, LINQ, threading from .NET BCL        |
-| `WebAutomation/`            | Selenium & Playwright-based test automation frameworks           |
+| Folder                           | Description                                                      |  |
+|----------------------------------|------------------------------------------------------------------|--|
+|`100DaysOfCode_CSharp_Automation` | Master C# Automation by coding 1 hour daily for 100 days         |  |
+| `APIAutomation/`                 | RestSharp & HttpClient api test automation                       |  |
+| `CalculatorAppSuite/`            | Demo of various C#.NET Project types - Web, MAUI, Windows etc.   |  ✅ Done |
+| `DataValidation/`                | XML, JSON, Database Data validation in  test automation          |  |
+| `Fundamental/`                   | C# Language Fundamentals                                         | ✅ Done |
+| `MobileAutomation/`              | Appium in test automation frameworks                             |  |
+| `Reports/`                       | Allure & Extern Report in test automation frameworks             |  |
+| `Specflow/`                      | BDD in test automation frameworks                                |  |
+| `DataStructuresAlgorithms/`      | C# implementations of sorting, trees, graphs, linked lists, etc. |  |
+| `EFCoreLearning/`                | EF Core CRUD, migrations, seeding, query building                |  |
+| `BCL/`                           | File handling, collections, LINQ, threading from .NET BCL        |  |
+| `WebAutomation/`                 | Selenium & Playwright-based test automation frameworks           |  |
 
 
 ---

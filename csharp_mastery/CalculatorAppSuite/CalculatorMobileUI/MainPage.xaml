@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CalculatorMobileUI.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="20">
+
+            <HorizontalStackLayout Spacing="10">
+                <Entry x:Name="Entry1" WidthRequest="150" Placeholder="Number 1" Keyboard="Numeric"/>
+                <Entry x:Name="Entry2" WidthRequest="150" Placeholder="Number 2" Keyboard="Numeric"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="10">
+                <Button Text="Add" Clicked="OnAddClicked"/>
+                <Button Text="Subtract" Clicked="OnSubtractClicked"/>
+                <Button Text="Multiply" Clicked="OnMultiplyClicked"/>
+                <Button Text="Divide" Clicked="OnDivideClicked"/>
+            </HorizontalStackLayout>
+
+            <Label x:Name="ResultLabel" FontSize="24" TextColor="Black" HorizontalOptions="Center"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

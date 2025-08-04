@@ -33,14 +33,16 @@ CalculatorAppSuite/
 │
 ├── CalculatorSoapApi/                  # WCF SOAP service (XML)
 │
+├── CalculatorMobileUI/                 # Universal App for Android, Ios, Windows
 ├── CalculatorTests/                    # NUnit tests for core logic and services
 │
 └── README.md                           # Project documentation
 ```
 ## Calculator Test
-- REST API Endpoint : http://localhost:5000/api/calculator/add?a=10&b=5
-- Soap API WSDL : http://localhost:5010/Calculator.svc?wsdl
-- WEB APP : http://localhost:5204/Calculator
-- WPF UI : \CalculatorAppSuite\CalculatorUI\bin\Debug\net8.0-windows\CalculatorUI.exe
-- Core Lib : \CalculatorAppSuite\CalculatorCoreLib\bin\Debug\net8.0\CalculatorCoreLib.dll
-- Database : \CalculatorAppSuite\Calculator.DataLogger.ConsoleApp\bin\Debug\net8.0\calculations.db
+- **REST API Endpoint :** http://localhost:5000/api/calculator/add?a=10&b=5
+- **Soap API WSDL :** http://localhost:5010/Calculator.svc?wsdl
+- **WEB APP :** http://localhost:5204/Calculator
+- **WPF UI :** \CalculatorAppSuite\CalculatorUI\bin\Debug\net8.0-windows\CalculatorUI.exe
+- **MAU UI :** \CalculatorAppSuite\CalculatorMobileUI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\CalculatorMobileUI.exe
+- **Core Lib :** \CalculatorAppSuite\CalculatorCoreLib\bin\Debug\net8.0\CalculatorCoreLib.dll
+- **Database :** \CalculatorAppSuite\Calculator.DataLogger.ConsoleApp\bin\Debug\net8.0\calculations.db
